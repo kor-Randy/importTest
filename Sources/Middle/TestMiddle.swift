@@ -9,6 +9,7 @@ import Foundation
 import End_A
 
 public class TestMiddle {
+    public init() {}
     public let testA = TestA()
     
     public func print() {
