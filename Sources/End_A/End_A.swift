@@ -15,6 +15,8 @@ public class PublicClass_A {
     internal func internalFunc() {
         print("End_A > PublicClass > internalFunc")
     }
+    
+    public init() {}
 }
 
 class InternalClass_A {
@@ -25,4 +27,6 @@ class InternalClass_A {
     internal func internalFunc() {
         print("End_A > InternalClass > internalFunc")
     }
+    
+    public init() {}
 }
