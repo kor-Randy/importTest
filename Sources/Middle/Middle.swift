@@ -14,9 +14,9 @@ public class Middle {
         return a.returnFunc()
     }
     
-    public func returnB() -> Struct_B {
-        return b.returnFunc()
-    }
+//    public func returnB() -> Struct_B {
+//        return b.returnFunc()
+//    }
     
     public func returnC() -> Struct_C {
         return c.returnFunc()

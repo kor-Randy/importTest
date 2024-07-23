@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import End_A
+
+public class TestMiddle {
+    public let testA = TestA()
+    
+    public func print() {
+        testA.printA()
+    }
+}

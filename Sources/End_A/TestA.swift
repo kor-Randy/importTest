@@ -8,5 +8,6 @@
 import Foundation
 
 public class TestA {
+    public init() {}
     public func printA() {}
 }
