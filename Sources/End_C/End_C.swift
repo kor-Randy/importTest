@@ -16,7 +16,7 @@ public class PublicClass_C {
     }
     public init() {}
     
-    public func returnFunc() -> Struct_A {
+    public func returnFunc() -> Struct_C {
         return .init()
     }
 }
