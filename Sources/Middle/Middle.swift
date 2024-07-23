@@ -6,29 +6,31 @@
 import End_C
 
 public class Middle {
-    let a = PublicClass_A()
+    public let a = PublicClass_A()
     let b = PublicClass_B()
-    let c = PublicClass_C()
+    public let c = PublicClass_C()
     
-    func returnA() -> Struct_A {
+    public func returnA() -> Struct_A {
         return a.returnFunc()
     }
     
-    func returnB() -> Struct_B {
+    public func returnB() -> Struct_B {
         return b.returnFunc()
     }
     
-    func returnC() -> Struct_C {
+    public func returnC() -> Struct_C {
         return c.returnFunc()
     }
     
-    func printA() {
+    public func printA() {
         a.publicFunc()
     }
-    func printB() {
+    public func printB() {
         b.publicFunc()
     }
-    func printC() {
+    public func printC() {
         c.publicFunc()
     }
+    
+    public init() {}
 }
