@@ -15,15 +15,12 @@ public class PublicClass_C {
         print("End_C > PublicClass > internalFunc")
     }
     public init() {}
+    
+    public func returnFunc() -> Struct_A {
+        return .init()
+    }
 }
 
-class InternalClass_C {
-    public func publicFunc() {
-        print("End_C > InternalClass > publicFunc")
-    }
-    
-    internal func internalFunc() {
-        print("End_C > InternalClass > internalFunc")
-    }
-    public init() {}
+public struct Struct_C {
+    let string: String = "struct_C"
 }
